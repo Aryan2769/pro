@@ -31,7 +31,7 @@
 .nav>.nav-links {
 	display: inline;
 	float: right;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .nav>.nav-links>a {
@@ -42,7 +42,7 @@
 }
 
 .nav>.nav-links>a:hover {
-	transition: ease 0.25s;
+	transition: ease 0.5s;
 	color: #415A77;
 }
 
@@ -78,6 +78,7 @@
 	}
 
 	.nav>.nav-links {
+		z-index: 999;
 		position: absolute;
 		display: block;
 		width: 100%;
@@ -102,4 +103,150 @@
 		height: calc(100vh - 50px);
 		overflow-y: auto;
 	}
+}
+
+/* .hero_section {
+	color: #E0E1DD;
+	background-color: #0D1B2A;
+	height: 100vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.headerText {
+	font-size: 50px;
+}
+
+@media screen and (max-width:1440px) {
+	.headerText {
+		font-size: 65px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.headerText {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.headerText {
+		margin-top: 400px;
+		font-size: 20px;
+	}
+	.button {
+		background-color: #ffffff00;
+		color: #E0E1DD;
+		width: 3em;
+		height: 2em;
+		border: #415A77 0.2em solid;
+		border-radius: 11px;
+		text-align: right;
+		transition: all 0.6s ease;
+	}
+}
+
+.button {
+	background-color: #ffffff00;
+	color: #E0E1DD;
+	width: 10em;
+	height: 2.9em;
+	border: #415A77 0.2em solid;
+	border-radius: 11px;
+	text-align: right;
+	transition: all 0.6s ease;
+}
+
+.button:hover {
+	background-color: #415A77;
+	cursor: pointer;
+}
+
+.button svg {
+	width: 1.6em;
+	margin: -0.2em 0.8em 1em;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	transition: all 0.6s ease;
+}
+
+.button:hover svg {
+	transform: translateX(5px);
+}
+
+.text {
+	margin: 0 1.5em
+}
+
+@media screen and (max-width:1440px) {
+	.hero_img {
+		max-width: 650px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.hero_img {
+		max-width: 475px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.hero_img {
+		max-width: 400px;
+	}
+}
+@media screen and (max-width:425px) {
+	.hero_img {
+		display: block;
+		margin: auto;
+		max-width: 300px;
+	}
+} */
+@media (max-width: 576px) {
+	.xs {
+		color: red;
+		font-weight: bold;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:768px) {
+	.sm {
+		color: red;
+		font-weight: bold;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width:992px) {
+	.md {
+		color: red;
+		font-weight: bold;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) {
+	.lg {
+		color: red;
+		font-weight: bold;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.xl {
+		color: red;
+		font-weight: bold;
+	}
+}
+.card > img{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	width: 200px;
+	height: 150px;
+	object-fit: contain;
 }
